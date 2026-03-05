@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class lista4 {
     
     public static void main(String[] args) {
+        //
         Scanner input = new Scanner(System.in);
         String vehicle;
         int axle, fee;
@@ -20,12 +21,12 @@ public class lista4 {
             System.out.println("How many axles does the vehicle has?");
             axle = input.nextInt();
             fee = axle*5;
-            System.out.println("The toll fee will be of $"+fee+" dollars");
+            System.out.println("The toll fee will be of $"+fee+",00 dollars");
         } else if (vehicle.equalsIgnoreCase("truck")) {
             System.out.println("How many axles does the vehicle has?");
             axle = input.nextInt();
             fee = axle*5;
-            System.out.println("The toll fee will be of $"+fee+" dollars");
+            System.out.println("The toll fee will be of $"+fee+",00 dollars");
         } else {
             System.out.println("This type of car is not listed, so you'll be feed in $300,00 dollars :)");
         }

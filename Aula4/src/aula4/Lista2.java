@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Lista2 {
     
     public static void lista2(String[] args) {
+        //
         Scanner input = new Scanner(System.in);
         int n1, n2, n3;
         System.out.println("type in three numbers:");

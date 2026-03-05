@@ -7,6 +7,7 @@ public class Lista1 {
 
     
     public static void lista1(String[] args) {
+        //
         Scanner input = new Scanner(System.in);
         double cme, tarifa;
         System.out.println("Qual foi o consumo de energia desse mês?");

@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Lista3 {
     
     public static void lista3(String[] args) {
+        //
         Scanner input = new Scanner(System.in);
         
         double peso, altura, imc;
