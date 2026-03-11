@@ -6,23 +6,27 @@ public class lista4 {
     public static void main(String[] args) {
         //
         Scanner input = new Scanner(System.in);
-        String vehicle;
-        int axle, fee;
+        int axle, fee, vehicle;
         
-        System.out.println("What's the car type? (travveling/pickup/bus/truck");
-        vehicle = input.next();
+        System.out.println("---*** -- TOLL -- ***---");
+        System.out.println("What is the vehicle type?");
+        System.out.println("1 - Travelling Car");
+        System.out.println("2 - Pickup Truck");
+        System.out.println("3 - Bus");
+        System.out.println("4 - Truck");
+        vehicle = input.nextInt();
         
         
-        if (vehicle.equalsIgnoreCase("travelling")) {
+        if (vehicle == 1) {
             System.out.println("The toll fee will be of $10,00 dollars");
-        } else if (vehicle.equalsIgnoreCase("pickup")) {
+        } else if (vehicle == 2) {
             System.out.println("The toll fee will be of $15,00 dollars");
-        } else if (vehicle.equalsIgnoreCase("bus")) {
+        } else if (vehicle == 3) {
             System.out.println("How many axles does the vehicle has?");
             axle = input.nextInt();
             fee = axle*5;
             System.out.println("The toll fee will be of $"+fee+",00 dollars");
-        } else if (vehicle.equalsIgnoreCase("truck")) {
+        } else if (vehicle == 4) {
             System.out.println("How many axles does the vehicle has?");
             axle = input.nextInt();
             fee = axle*5;
