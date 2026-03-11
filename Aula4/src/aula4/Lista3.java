@@ -7,12 +7,12 @@ public class Lista3 {
         //
         Scanner input = new Scanner(System.in);
         
-        double peso, altura, imc;
+        double peso, alt, imc;
         System.out.println("Digite seu peso");
         peso = input.nextDouble();
-        System.out.println("Digite sua altura");
-        altura = input.nextDouble();
-        imc = peso / (altura*altura);
+        System.out.println("Digite sua alt");
+        alt = input.nextDouble();
+        imc = peso / (alt*alt);
         System.out.println(imc);
         if (imc < 18.5) {
             System.out.println("Você está abaixo do peso");
